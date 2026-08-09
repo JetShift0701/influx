@@ -1,4 +1,6 @@
 #pragma once
+#ifndef __CustomClass__
+#define __CustomClass__
 
 #include <string>
 
