@@ -51,6 +51,7 @@ build cmake_object_order_depends_target_influx: phony || .
 
 build CMakeFiles\influx.dir\main.cpp.obj: CXX_COMPILER__influx_unscanned_Release E$:\open\msvc_cpp\influx\main.cpp || cmake_object_order_depends_target_influx
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD
+  INCLUDES = -IE:\open\msvc_cpp\influx\eigen-5.0.0
   OBJECT_DIR = CMakeFiles\influx.dir
   OBJECT_FILE_DIR = CMakeFiles\influx.dir
   TARGET_COMPILE_PDB = CMakeFiles\influx.dir\
@@ -58,6 +59,7 @@ build CMakeFiles\influx.dir\main.cpp.obj: CXX_COMPILER__influx_unscanned_Release
 
 build CMakeFiles\influx.dir\customclass.cpp.obj: CXX_COMPILER__influx_unscanned_Release E$:\open\msvc_cpp\influx\customclass.cpp || cmake_object_order_depends_target_influx
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD
+  INCLUDES = -IE:\open\msvc_cpp\influx\eigen-5.0.0
   OBJECT_DIR = CMakeFiles\influx.dir
   OBJECT_FILE_DIR = CMakeFiles\influx.dir
   TARGET_COMPILE_PDB = CMakeFiles\influx.dir\

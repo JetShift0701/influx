@@ -63,8 +63,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/open/msvc_cpp/influx/build/CMakeFiles/CMakeScratch/TryCompile-23qc8a"
-      binary: "E:/open/msvc_cpp/influx/build/CMakeFiles/CMakeScratch/TryCompile-23qc8a"
+      source: "E:/open/msvc_cpp/influx/build/CMakeFiles/CMakeScratch/TryCompile-q2dvqs"
+      binary: "E:/open/msvc_cpp/influx/build/CMakeFiles/CMakeScratch/TryCompile-q2dvqs"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -74,11 +74,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/open/msvc_cpp/influx/build/CMakeFiles/CMakeScratch/TryCompile-23qc8a'
+        Change Dir: 'E:/open/msvc_cpp/influx/build/CMakeFiles/CMakeScratch/TryCompile-q2dvqs'
         
-        Run Build Command(s): D:\\open\\visual_studio\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja\\ninja.exe -v cmTC_c99cd
-        [1/2] D:\\open\\visual_studio\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_c99cd.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_c99cd.dir\\ /FS -c D:\\open\\qt\\qt_installed\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\open\\qt\\qt_installed\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c99cd.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- D:\\open\\visual_studio\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c99cd.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_c99cd.exe /implib:cmTC_c99cd.lib /pdb:cmTC_c99cd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): D:\\open\\visual_studio\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja\\ninja.exe -v cmTC_350eb
+        [1/2] D:\\open\\visual_studio\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_350eb.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_350eb.dir\\ /FS -c D:\\open\\qt\\qt_installed\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\open\\qt\\qt_installed\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_350eb.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- D:\\open\\visual_studio\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_350eb.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_350eb.exe /implib:cmTC_350eb.lib /pdb:cmTC_350eb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
